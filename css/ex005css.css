@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(181, 222, 141);
+}
+h1{
+    color: azure;
+    background-color: darkgreen;
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+h2{
+    color: #ffffff;
+    text-shadow: 1px 1px 10px blue;
+    text-align: center;
+}
+h3{
+    color: red;
+    font-family: 'Beth Ellen', cursive;
+}
+.paragrafo-vermelho{
+    color: red;
+}
+.amarelo{
+ color: yellow;
+ text-align: center;
+}
+.paragrafo-amarelo{
+    color: yellow;
+    text-align: center;
+}
+.verde{
+    color: darkgreen;
+    text-align: right;
+}
+.paragrafo-verde{
+    color: darkgreen;
+    text-align: right;
+}

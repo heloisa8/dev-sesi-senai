@@ -1,0 +1,135 @@
+body{
+    background-color: aqua; /*alterando cor de fundo*/
+}
+h1 {
+    text-align: center; /*centralizar as letras*/
+}
+p {
+    color: rgb(255, 225, 0); /*mudando a cor do paragrafo*/
+}
+img {
+    width: 200px; height: 100px; /*mudando o tamanho da imagem padrão*/
+}
+h2 {
+    font-size: 20px; /*mudar o tamanho da letra e cor de fundo*/
+    background-color: blueviolet;
+}
+h3{
+    text-align: right;
+    font-size: 18px;
+    color: black;
+    background-color: brown;
+}
+.p-vermelho{
+    color: red; /*mudar a cor do class*/
+}
+.p-amarelo {
+    color: yellow;
+}
+#p-verde{
+    color: green; /*mudar a cor do id*/
+}
+.pa-vermelho{
+    color: red;
+}
+.rosa{
+    background-color: darkmagenta;
+    transition: 1s;
+}
+.rosa:hover{
+    background-color: darkorchid;
+    transition: 1s; /*mudar cor*/
+}
+.p-vermelho{
+    color: red;
+}
+.p-vermelho:hover{ /*mudar cor da fonte e do fundo*/
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+.font-courier-new{
+    font-family: 'Courier New', Courier, monospace;
+}
+.sombreado{
+    text-shadow: 1px 1px green;  /*colocando sombreado*/
+}
+.opacidade{
+    background-color: blueviolet;
+    opacity: 0,3; /*nivel de opacidade do texto em elementos*/
+}
+.opacidade-rgba{
+    background-color: rgb(99, 83, 83); /*opacidade do fundo*/
+}
+.font-imagem{
+    height: 100px;
+   background-image: url(../img/esquilo.png);
+}
+.font-imagem-dinamics{
+    height: 1000px;
+    background: url(https://source.unsplash.com/1920px2400?hdr,ocean);
+}
+.borda{
+    border: 2px solid red; /*aplicando borda largura, tipo de borda e cor*/
+    border-radius: 10px; /*aplicando um arredondamento no elemento*/
+}
+.borda-linear{
+        border-radius: 100px;
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(45deg, red, blue);
+        padding: 5px;
+}
+.borda-padrão{
+    border: 2px solid black; 
+}
+.borda-pontilhada{
+    border-top: 1px dotted yellow;
+}
+.borda-misturada{
+    border-top: 4px solid yellow;
+    border-left: 4px double green;
+    border-bottom: 4px dashed red;
+    border-right: 4px dotted blue;
+}
+.borda-inferior{
+    border-bottom: 2px solid red;
+}
+.div1{
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+.div-2{
+    border: 1px solid black;
+    background-color: lightcyan;
+    text-align: right;
+}
+.margem{
+    background-color: antiquewhite;
+    margin: 50px;
+}
+.div-centralizada{
+    background-color: brown;
+    width: 150px;
+    margin: 0px auto;
+}
+.div-padding{
+    background-color: aquamarine;
+    padding: 20px;
+}
+.div-completa{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+.botão{
+    padding: 5px 10px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black;
+}
+.botão:hover{
+    background-color: orange
+}

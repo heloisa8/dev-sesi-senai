@@ -1,0 +1,44 @@
+.borda-preta{
+    border: 2px solid black; 
+}
+.borda-inferior{
+    border-bottom: 2px solid red;
+}
+.borda-verde{
+    border: 2px solid green; 
+    border-radius: 10px; 
+}
+.borda-azul{
+    background-color: aqua;
+    border-left: 4px solid blue;
+}
+.borda-pontilhado{
+    border-top: 1px dotted yellow;
+}
+.borda-misturada{
+    border-top: 4px solid yellow;
+    border-left: 4px double green;
+    border-bottom: 4px dashed red;
+    border-right: 4px dotted blue;
+}
+.figura-1{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(45deg, red, blue);
+    padding: 5px;
+}
+.figura-2{
+    height: 100px;
+ border-radius: 5px;
+}
+.figura-3{
+    height: 100px;
+    border-radius: 100px;
+    width: 100px;
+}
+.figura-4{
+    height: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

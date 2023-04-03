@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.div-principal{
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 5px solid orange;
+}
+h1{
+    color: orange;
+    text-shadow: 1px 1px black; 
+    text-align: center;
+}
+.botão-1{
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+h2{
+    font-size: 20px; 
+    background-color: red;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.botão-2{
+text-align: center;
+border: 2px solid rgb(0, 0, 0);
+}
+.sesi-logo{
+    width: 100px;
+    height: 50px;
+}
+.facebook{
+    font-size: 20px; 
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+}
+.google{
+    font-size: 20px; 
+    background-color: rgb(95, 95, 179);
+    text-align: center;
+    color: aliceblue;
+}
+.botão{padding: 2px 2px ;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black}

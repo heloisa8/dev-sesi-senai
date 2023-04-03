@@ -1,0 +1,55 @@
+body{
+    background-color: burlywood;
+}
+.div-principal{
+    background-color: lightcyan;
+    margin: 20px;
+    padding: 20px;
+width: 600px;
+text-align: center;
+}
+h1{
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 1px black; 
+}
+h2{
+    text-align: left;
+    color: blue;
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+}
+.google-div{
+    height: 50px;
+    width: 100px;
+    float: left;
+    background-repeat: no-repeat;
+    
+}
+h3{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+}
+.parte-2{
+    text-align: center;
+    
+}
+.google-imagem{
+    width: 100px;
+    height: 50px;
+}
+.texto{
+    text-align: right;
+    color: blue;
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+}
+.parte-3{
+    text-align: right;
+}
+.google-img{
+    width: 100px;
+    height: 50px;
+}

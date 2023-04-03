@@ -1,0 +1,54 @@
+.quadrado {
+    width: 150px;
+    height: 150px;
+    background: #0008ff;
+  }
+  .amarelo{
+    width: 150px;
+    height: 150px;
+    background: #f6ff00;
+  }
+  .verde{
+    width: 150px;
+    height: 150px;
+    background: #59ff00;
+  }
+  .u-quadrado{
+    width: 150px;
+    height: 150px;
+    background: #0008ff;
+  }
+  .vermelho{
+    width: 150px;
+    height: 150px;
+    background: #ff0000;
+  }
+  .rosa{
+    width: 150px;
+    height: 150px;
+    background: #ff00d9;
+  }
+  #preto
+  {
+    width: 150px;
+    height: 150px;
+    background: #000000;
+  }
+  .vermelho:hover{
+    width: 150px;
+    height: 150px;
+    background: #5d0909;
+    transition: 1s;
+  }
+  .amarelo:hover{
+    width: 300px;
+    height: 300px;
+    background: #5e6105;
+    transition: 1s;
+  }
+  .vermelho:hover{
+    width: 300px;
+    height: 300px;
+    background: #bd4242;
+    transition: 1s;
+  }

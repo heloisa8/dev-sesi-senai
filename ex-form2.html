@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex-form2</title>
+    <style>
+        body {
+            background-color: rgb(93, 233, 233);
+           
+        }
+        h1 {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        h2 {color: rgb(0, 0, 0);
+            text-align: center;
+        }
+    
+        </style>
+</head>
+<body>
+    <fieldset> 
+    <h1> ficha de cadastro </h1>
+    <h2> dados pessoais </h2>
+    <table border="1" >
+        <tr> <td> nome aluno: </td>
+            <td> <input type="email" placeholder="digite seu email"> </td></tr>
+        <tr> <td> nascimento: </td> <td><input type="datetime-local"> </td></tr>
+        <tr> <td> idade: </td> <td>
+            <input type="email"> </td></tr>
+        <tr><td> nome mãe: </td><td>
+            <input type="email" placeholder="digite o nome da mãe"> </td></tr>
+        <tr><td> telefone: </trd> <td> 
+            <input type="email"> </td></tr>
+        <tr> <td> email: </td> <td> 
+            <input type="email" placeholder="digite seu email">  </td></tr>
+        <tr><td> senha: </td> <td>
+            <input type="email" placeholder="digite sua senha"> </td></tr>
+        <tr> <td> foto: </td> <td>
+         <input type="button" value="escolher arquivo "> nenhum arquivo selecionado </td></tr>
+        </table>
+        <h2> informações de matricula </h2>
+        <table border="1" >
+            <tr>
+              <td> Aluno </td>
+              <td> turno </td>
+              <td> atividades extracurriculares </td>
+              </td>
+            </tr>
+            <tr> <td> <select name="select">
+                <option value="valor1"> escolha sua escolaridade</option>
+                <option value="valor2" selected>escolaridade</option>
+                <option value="valor3">escolaridade</option>
+              </select>  </td>
+            <td> <input type="radio" name="webmaster" value="sim"/> manhã <br>
+                <input type="radio" name="webmaster" value="nao"/> tarde <br> </td>
+                <td> <input type="checkbox"> informatica <br>
+                    <input type="checkbox"> musica <br>
+                    <input type="checkbox"> pintura <br> 
+  <input type="checkbox"> judo <br>
+  <input type="checkbox"> futebol <br> </td> </table>
+  <h2> observação </h2>
+  <table border="1" >
+    <textarea width="100%" ></textarea> 
+<td>   <input type="button" value="enviar">
+ </td>
+ <td>   <input type="button" value="limpar">
+ </td></table>
+</fieldset>     
+</body>
+</html>

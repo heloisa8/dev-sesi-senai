@@ -1,0 +1,18 @@
+h1{
+    background-color: cornflowerblue;
+
+}
+.casa-imagem{
+    height: 400px;
+   background-image: url(../img/casa.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.logo-imagem {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo2.svg);
+}
+.familia-imagem{
+   
+}

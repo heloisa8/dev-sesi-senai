@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+.botão-1{
+    padding: 10px;
+    background-color: blue;
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+.espaço{
+    margin: 0px auto;
+}
+.botão-2{
+    padding: 10px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border: 1px solid greenyellow;
+    border-radius: 3px;
+}
+.botao-3{
+    padding: 10px;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.botão-4{
+    padding: 10px;
+    background-color: yellow;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.botão-5{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, red, blue);
+    border: 1px solid palevioletred;
+
+}
+.div-2{
+    margin-top: 50px;
+}
+.botão-6{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+   background: linear-gradient(180deg, blue, blueviolet);
+    border-radius: 3px;
+}
+.botão-7{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+   background: linear-gradient(180deg, green, yellowgreen);
+    border-radius: 3px;
+}
+.botão-8{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    background-color: black;
+  border: 1px solid violet;
+}
+.div-3{
+    margin-top: 50px;
+}
+.botão-9{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    background-color: black;
+  border: 1px solid palevioletred;
+}
+.botão-10{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    background-color: black;
+  border: 1px solid orange;
+}
+.botão-11{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    background-color: black;
+  border: 1px solid yellow;
+  box-shadow: 3px 3px 3px yellow;
+}
+.botão-12{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    background-color: black;
+  border: 1px solid green;
+  box-shadow: 3px 3px 3px green;
+}
